@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #111111;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #004080;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #3399ff;
+  }
+  
+  .add-tarefa {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .add-tarefa input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #3399ff;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .add-tarefa button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #3399ff;
+    color: #ffffff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .filtro {
+    margin-bottom: 20px;
+  }
+  
+  .filtro select {
+    padding: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #3399ff;
+    border-radius: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #1e1e1e;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li.concluida {
+    text-decoration: line-through;
+    background-color: #003366;
+    color: #a0d8ff;
+  }
+  
+  li button {
+    background: none;
+    border: none;
+    color: #ff4d4d;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  li button:hover {
+    color: #ff0000;
+  }
+  
